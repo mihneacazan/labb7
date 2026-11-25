@@ -16,6 +16,7 @@ class AcceptThread(
         uuid: UUID
 ) : Thread() {
 
+
     private var serverSocket: BluetoothServerSocket? = null
 
     init {
